@@ -1,0 +1,259 @@
+html{
+margin:auto;
+}
+
+ul{
+list-style: none;
+margin: 0;
+padding: 0;
+width:200px;
+border: 2px solid none;
+}
+
+li a{
+text-transform: uppercase;
+display: block;
+color: black;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+li a:hover{
+background-color:#555;
+color: white;
+}
+
+h5{
+text-transform: uppercase;
+font-style: normal;
+font-weight: lighter;
+font-size: 23px;
+margin: 7px 0px 7px 0px;
+}
+
+h1{
+font-size: 90px;
+font-weight: 300;
+border:2px solid none;
+margin: 0px 0px 5px 0px; #top,right, bottom, left
+
+}
+
+section main, p{
+font:helvetica;
+font-size: 1.2rem;
+line-height: 1.7;
+}
+
+main{
+margin-bottom: 2rem;
+}
+
+.img-1{
+margin: 0rem 0rem 1rem 0rem;
+}
+
+img{
+padding-left: 0;
+width: 100%;
+}
+
+.Class-decor{
+font-size: 3.5rem;
+}
+
+button{
+margin: 3rem 0rem 2rem 0rem;
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+}
+
+.button-2{
+margin: 0rem 0rem 0rem 19rem;
+padding: 15px 32px;
+}
+
+.img-2{
+margin-bottom: 3rem;
+}
+
+#learn-more-btn{
+background-color: transparent;
+color: black;
+border: 2px solid navy;
+margin: 2rem 20rem 2rem 20rem;
+padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+}
+
+.Home-care{
+font-size: 3rem;
+text-align: left;
+}
+
+.container{
+margin-top: 2rem;
+position: relative;
+text-align: center;
+color: white;
+}
+
+.center-txt{
+position: absolute;
+bottom: 30%;
+top:25%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.align-gallery-section{
+margin: 0px 20px 0px 20px;
+}
+
+.gallery-txt{
+font-size: 4rem;
+text-align: center;
+margin-top: 2rem;
+
+}
+
+.gallery-txt, p{
+text-align: center;
+margin-bottom: 2rem;
+
+}
+
+.grid-container{
+display: grid;
+grid-template-columns: auto auto;
+}
+
+.grid-item{
+padding: 20px;
+}
+
+.grid-item1 {
+grid-row-start: 3;
+grid-row-end: 6;
+padding: 20px;
+
+}
+
+#rent{
+font-size: 2rem;
+font-weight: lighter;
+text-transform: uppercase;
+background-color: navy;
+color: white;
+margin: 2rem 0rem 0rem 3rem;
+border: 2px solid none;
+padding: 30px; #top,right, bottom, left
+}
+
+address{
+font: helvetica;
+color: navy;
+font-size: 1.5rem;
+margin: 3rem 0rem 3rem 3rem;
+}
+
+#living{
+font-size: 3.5rem;
+}
+
+.solid{
+width: 520px;
+}
+.last{
+margin: 0px 30px 20px 30px;
+}
+
+footer{
+margin: 0px;
+text-align: center;
+padding: 6px;
+background-color: black;
+color: white
+}
+
+
+
+@media screen and (min-width: 900px){
+.row{
+  display: flex;
+}
+
+*{
+  box-sizing: border-box;
+}
+.column{
+  width: 50%;
+  padding: 10px;
+}
+
+.container{
+margin-top: 2rem;
+position: relative;
+text-align: center;
+color: white;
+}
+
+.center-txt{
+border: 2px solid none;
+position: absolute;
+bottom: 70%;
+top:25%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#learn-more-btn{
+margin-right: 7rem;
+
+}
+
+.solid-Line{
+float: left;
+margin-left: 3rem;
+}
+
+.last-div{
+  margin-left: 3rem;
+}
+.last-div p{
+  text-align: left;
+}
+
+}
+
+@media screen and (max-width: 680px){
+.grid-container{
+display: grid;
+grid-template-columns: auto;
+}
+.grid-item{
+padding: 10px;
+}
+
+.grid-item1 {
+padding: 10px;
+}
+
+.solid-Line{
+width: 350px;
+}
+
+#learn-more-btn{
+margin: 5.8rem;
+}
+
+.button-1{
+margin: 0rem 0rem 0rem 19rem;
+
+}
+
+}
